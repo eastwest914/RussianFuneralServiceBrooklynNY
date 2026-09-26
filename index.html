@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Russian Funeral Service | Affordable Cremation &amp; Funeral Home, Brooklyn NY 11225</title>
+<meta name="description" content="Russian Funeral Service provides affordable, respectful cremation, funeral arrangements and burial services for families in Brooklyn, NY. Available 24 hours. Call 347-560-5810.">
+<link rel="canonical" href="https://harmonyfuneral.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Russian Funeral Service - Brooklyn, NY">
+<meta property="og:description" content="Affordable cremation, funeral arrangements and burial services for Brooklyn families, available 24 hours a day.">
+<meta property="og:site_name" content="Russian Funeral Service">
+<meta name="twitter:card" content="summary_large_image">
+
+<style>
+  :root{
+    --deep:#1E2422;
+    --deep-2:#2B332F;
+    --gold:#B9924F;
+    --gold-2:#D8B879;
+    --paper:#F6F4EF;
+    --stone:#6B7570;
+    --ink:#20241F;
+    --line:#E1DDD2;
+    --radius:14px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:Georgia, "Times New Roman", serif;
+    font-weight:400;
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.7;
+  }
+  h1,h2,h3,h4{
+    font-family:Georgia, "Times New Roman", serif;
+    font-weight:700;
+    color:var(--deep);
+    margin:0 0 .5em 0;
+    line-height:1.28;
+  }
+  p{margin:0 0 1em 0;font-weight:400;font-family:Calibri, "Segoe UI", Arial, sans-serif;}
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;display:block;}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 24px;}
+  section{display:none;}
+  section.active{display:block;}
+
+  /* ---------- Header ---------- */
+  header{
+    position:sticky;top:0;z-index:100;
+    background:rgba(30,36,34,0.97);
+    backdrop-filter:blur(6px);
+    color:#fff;
+    border-bottom:1px solid rgba(216,184,121,.25);
+  }
+  .headbar{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:14px 24px;max-width:1160px;margin:0 auto;gap:16px;flex-wrap:wrap;
+  }
+  .head-phone{
+    display:flex;align-items:center;gap:8px;
+    font-weight:700;font-size:1.05rem;color:var(--gold-2);
+    white-space:nowrap;font-family:Georgia, serif;
+  }
+  .head-phone svg{flex:none;}
+  nav.mainnav{display:flex;gap:26px;flex-wrap:wrap;font-family:Calibri, Arial, sans-serif;}
+  nav.mainnav a{
+    font-weight:400;font-size:.98rem;color:#EDEAE1;
+    padding:6px 2px;border-bottom:2px solid transparent;
+    transition:border-color .2s, color .2s;
+  }
+  nav.mainnav a:hover, nav.mainnav a.current{
+    color:var(--gold-2);border-bottom-color:var(--gold);
+  }
+  .head-brand{display:flex;align-items:center;gap:10px;}
+  .head-brand img{height:42px;width:auto;max-width:170px;border-radius:8px;object-fit:contain;background:#fff;padding:5px;}
+  .head-brand span{font-weight:700;font-size:.96rem;color:#fff;line-height:1.2;max-width:180px;font-family:Georgia,serif;}
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;
+    background:linear-gradient(135deg, var(--gold-2), var(--gold) 70%);
+    color:#241C0C;font-weight:700;
+    padding:11px 20px;border-radius:999px;border:none;cursor:pointer;
+    box-shadow:0 6px 16px rgba(185,146,79,.35);
+    font-size:.92rem;white-space:nowrap;font-family:Calibri, Arial, sans-serif;
+  }
+  .btn:hover{filter:brightness(1.05);}
+  .btn-ghost{
+    background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.5);
+    box-shadow:none;
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    background:linear-gradient(160deg, var(--deep) 0%, var(--deep-2) 55%, #24302A 100%);
+    color:#fff;padding:70px 0 82px;position:relative;overflow:hidden;
+  }
+  .hero::after{
+    content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;
+    border-radius:50%;background:radial-gradient(circle, rgba(216,184,121,.16), transparent 70%);
+  }
+  .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;position:relative;}
+  .eyebrow{
+    display:inline-block;color:var(--gold-2);font-weight:700;
+    font-family:Calibri, Arial, sans-serif;font-size:.82rem;margin-bottom:14px;letter-spacing:.02em;
+  }
+  .hero h1{color:#fff;font-size:2.2rem;max-width:620px;}
+  .hero p.lead{color:#D8D4C7;font-size:1.05rem;max-width:540px;font-family:Calibri, Arial, sans-serif;}
+  .hero-ctas{display:flex;gap:14px;margin-top:26px;flex-wrap:wrap;}
+  .hero-stats{display:flex;gap:28px;margin-top:38px;flex-wrap:wrap;}
+  .hero-stats div{min-width:110px;}
+  .hero-stats strong{display:block;font-size:1.4rem;color:var(--gold-2);font-family:Georgia,serif;}
+  .hero-stats span{font-size:.85rem;color:#B7B2A2;font-family:Calibri, Arial, sans-serif;}
+  .hero-art{
+    background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);
+    border-radius:var(--radius);padding:8px;box-shadow:0 20px 50px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  .hero-art img{
+    border-radius:10px;width:100%;height:340px;object-fit:cover;
+  }
+
+  /* ---------- Sections generic ---------- */
+  .section-pad{padding:66px 0;}
+  .section-head{max-width:680px;margin:0 auto 40px;text-align:center;}
+  .section-head .eyebrow{color:var(--gold);}
+  .section-head h2{font-size:1.9rem;}
+  .band-alt{background:#fff;}
+
+  /* ---------- Cards ---------- */
+  .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+  .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
+  .card{
+    background:#fff;border-radius:var(--radius);padding:26px;
+    box-shadow:0 10px 30px rgba(30,36,34,.07);border:1px solid var(--line);
+  }
+  .card h3{font-size:1.05rem;}
+  .card p{font-size:.95rem;color:#3F473F;}
+  .icon-badge{
+    width:52px;height:52px;border-radius:12px;
+    display:flex;align-items:center;justify-content:center;margin-bottom:14px;
+    background:linear-gradient(135deg, var(--deep), var(--deep-2));
+  }
+
+  /* ---------- Services page ---------- */
+  .svc-filterbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:34px;font-family:Calibri, Arial, sans-serif;}
+  .svc-filterbar button{
+    border:1.5px solid var(--line);background:#fff;color:var(--deep);
+    padding:8px 16px;border-radius:999px;font-family:inherit;font-size:.86rem;cursor:pointer;
+    font-weight:700;
+  }
+  .svc-filterbar button.active{background:var(--deep);color:#fff;border-color:var(--deep);}
+  .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;}
+  .svc-card{
+    background:#fff;border-radius:var(--radius);overflow:hidden;
+    box-shadow:0 10px 26px rgba(30,36,34,.08);border:1px solid var(--line);
+    display:flex;flex-direction:column;
+  }
+  .svc-card .svc-img{
+    height:96px;width:100%;position:relative;overflow:hidden;
+    background:linear-gradient(135deg, var(--deep) 0%, var(--deep-2) 100%);
+    display:flex;align-items:center;padding:0 18px;
+  }
+  .svc-card .svc-img svg{flex:none;}
+  .svc-card .svc-img .svc-tag{
+    color:#fff;font-weight:700;font-size:.92rem;letter-spacing:.01em;
+    padding-left:14px;font-family:Georgia,serif;
+  }
+  .svc-card .svc-body{padding:20px 22px 24px;flex:1;display:flex;flex-direction:column;}
+  .svc-card h3{font-size:1.0rem;margin-bottom:8px;}
+  .svc-card p{font-size:.92rem;color:#3F473F;flex:1;font-family:Calibri, Arial, sans-serif;}
+  .svc-cta{
+    margin-top:12px;display:inline-flex;align-items:center;gap:6px;
+    color:var(--gold);font-weight:700;font-size:.86rem;font-family:Calibri, Arial, sans-serif;
+  }
+
+  /* ---------- Floating call button ---------- */
+  .floatcall{
+    position:fixed;bottom:22px;right:22px;z-index:200;
+    background:linear-gradient(135deg, var(--gold-2), var(--gold));
+    color:var(--deep);width:60px;height:60px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 10px 26px rgba(185,146,79,.5);
+  }
+  .floatcall:hover{filter:brightness(1.06);}
+
+  /* ---------- FAQ ---------- */
+  .faq-item{border-bottom:1px solid var(--line);padding:0;}
+  .faq-q{
+    display:flex;align-items:center;justify-content:space-between;gap:14px;
+    width:100%;text-align:left;background:none;border:none;cursor:pointer;
+    padding:18px 4px;font-family:Calibri, Arial, sans-serif;
+  }
+  .faq-q h4{font-size:1rem;margin:0;color:var(--deep);font-family:Georgia,serif;}
+  .faq-icon{
+    flex:none;width:26px;height:26px;border-radius:50%;
+    border:1.5px solid var(--gold);color:var(--gold);
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.1rem;font-weight:700;line-height:1;
+    transition:transform .25s ease, background .25s ease, color .25s ease;
+  }
+  .faq-item.open .faq-icon{transform:rotate(45deg);background:var(--gold);color:#fff;}
+  .faq-a{
+    max-height:0;overflow:hidden;transition:max-height .3s ease, padding .3s ease;
+  }
+  .faq-a p{margin:0 0 18px;color:#3F473F;padding-right:40px;font-family:Calibri, Arial, sans-serif;}
+  .faq-item.open .faq-a{max-height:260px;}
+
+  /* ---------- Contact ---------- */
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;}
+  form.contact-form{background:#fff;border-radius:var(--radius);padding:28px;border:1px solid var(--line);box-shadow:0 10px 30px rgba(30,36,34,.07);}
+  form.contact-form label{display:block;font-weight:700;font-size:.86rem;margin:14px 0 6px;color:var(--deep);font-family:Calibri, Arial, sans-serif;}
+  form.contact-form input, form.contact-form select, form.contact-form textarea{
+    width:100%;padding:11px 12px;border-radius:10px;border:1.5px solid var(--line);
+    font-family:Calibri, Arial, sans-serif;font-size:.95rem;background:#FAF9F5;
+  }
+  form.contact-form button{margin-top:20px;width:100%;justify-content:center;}
+  .contact-info-card{background:var(--deep);color:#fff;border-radius:var(--radius);padding:28px;}
+  .contact-info-card h3{color:#fff;}
+  .contact-line{display:flex;gap:12px;align-items:flex-start;margin-bottom:16px;}
+  .contact-line svg{flex:none;margin-top:2px;}
+  .contact-line a, .contact-line span{color:#D8D4C7;font-size:.95rem;font-family:Calibri, Arial, sans-serif;}
+  .map-wrap{margin-top:22px;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);}
+  .map-wrap iframe{width:100%;height:320px;border:0;display:block;}
+
+  /* ---------- About ---------- */
+  .about-hero{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center;}
+  .badge-row{display:flex;gap:18px;flex-wrap:wrap;margin-top:20px;}
+  .badge-row div{
+    background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 18px;
+    display:flex;align-items:center;gap:10px;font-weight:700;font-size:.88rem;color:var(--deep);
+    font-family:Calibri, Arial, sans-serif;
+  }
+
+  /* ---------- Footer ---------- */
+  footer{background:var(--deep);color:#D8D4C7;padding:54px 0 24px;margin-top:20px;font-family:Calibri, Arial, sans-serif;}
+  .foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1.2fr;gap:34px;}
+  .foot-brand{display:flex;align-items:center;gap:10px;margin-bottom:14px;}
+  .foot-brand img{height:42px;width:auto;max-width:170px;border-radius:8px;object-fit:contain;background:#fff;padding:5px;}
+  .foot-brand span{color:#fff;font-weight:700;font-family:Georgia,serif;}
+  footer h4{color:#fff;font-size:.95rem;margin-bottom:14px;font-family:Georgia,serif;}
+  footer a{color:#B7B2A2;font-size:.9rem;display:block;margin-bottom:9px;}
+  footer a:hover{color:var(--gold-2);}
+  .foot-bottom{
+    border-top:1px solid rgba(255,255,255,.12);margin-top:36px;padding-top:20px;
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:.82rem;color:#8E9088;
+  }
+
+  /* ---------- Responsive ---------- */
+  @media(max-width:980px){
+    .hero-grid{grid-template-columns:1fr;}
+    .grid-3, .svc-grid{grid-template-columns:repeat(2,1fr);}
+    .contact-grid{grid-template-columns:1fr;}
+    .about-hero{grid-template-columns:1fr;}
+    .foot-grid{grid-template-columns:1fr 1fr;}
+    nav.mainnav{display:none;}
+  }
+  @media(max-width:600px){
+    .grid-3, .svc-grid, .grid-2{grid-template-columns:1fr;}
+    .hero h1{font-size:1.8rem;}
+    .headbar{justify-content:center;text-align:center;}
+    .foot-grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="headbar">
+    <a class="head-phone" href="tel:+13475605810" aria-label="Call Russian Funeral Service">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z" stroke="#D8B879" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      347-560-5810
+    </a>
+    <nav class="mainnav" id="mainnav">
+      <a href="#home" data-route="home">Home</a>
+      <a href="#about" data-route="about">About</a>
+      <a href="#services" data-route="services">Services</a>
+      <a href="#contact" data-route="contact">Contact</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:14px;">
+      <div class="head-brand">
+        <img src="https://www.harmonyfuneral.com/wp-content/themes/brooklyn-funeral-home/images/harmony-brooklyn-funeral-home-logo.svg" alt="Russian Funeral Service logo">
+        <span>Russian Funeral Service</span>
+      </div>
+      <a href="#contact" class="btn">Get a Free Consultation</a>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HOME ================= -->
+<section id="home">
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Brooklyn, NY 11225 &bull; Available 24 Hours</span>
+        <h1>Affordable Cremation &amp; Funeral Services Near Me in Brooklyn</h1>
+        <p class="lead">Russian Funeral Service helps families throughout Brooklyn arrange a respectful, affordable cremation or funeral, day or night. From funeral arrangements and casket selection to shipping cremated remains home, our team is here to guide you through every step with patience and care.</p>
+        <div class="hero-ctas">
+          <a href="tel:+13475605810" class="btn">Call 347-560-5810</a>
+          <a href="#services" class="btn btn-ghost">View Services</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>24/7</strong><span>Always Available</span></div>
+          <div><strong>Affordable</strong><span>Funeral &amp; Cremation</span></div>
+          <div><strong>Cash &amp; CC</strong><span>Payment Accepted</span></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="https://www.harmonyfuneral.com/wp-content/uploads/2026/02/Harmony-Funeral-Home-Brooklyn-Gallery-Desktop.jpg.webp" alt="Russian Funeral Service funeral home, Brooklyn NY">
+      </div>
+    </div>
+  </div>
+
+  <div class="section-pad wrap">
+    <div class="section-head">
+      <span class="eyebrow">Why Brooklyn Families Call Us</span>
+      <h2>A Local Cremation &amp; Funeral Service Built Around Dignity and Fair Pricing</h2>
+      <p>When a family searches for a funeral home near me or an affordable funeral home in Brooklyn, they want a team that listens, explains every option clearly and never rushes a decision made during grief. That is what Russian Funeral Service provides, from a simple direct cremation to a full funeral ceremony and burial.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <div class="icon-badge"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 3c1.6 2.4 2.4 4.3 2.4 6a2.4 2.4 0 11-4.8 0c0-1.7.8-3.6 2.4-6z" stroke="#D8B879" stroke-width="1.6" stroke-linejoin="round"/><path d="M6 21h12M8 21c0-4 1.8-6.5 4-6.5s4 2.5 4 6.5" stroke="#D8B879" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+        <h3>Respectful Cremation Services</h3>
+        <p>Direct, traditional and religious cremation options carried out with the utmost care and attention to your family's wishes.</p>
+      </div>
+      <div class="card">
+        <div class="icon-badge"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M5 4h11l3 3v13H5V4z" stroke="#D8B879" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 10h6M9 14h6M9 18h3" stroke="#D8B879" stroke-width="1.4" stroke-linecap="round"/></svg></div>
+        <h3>Full Funeral Arrangements</h3>
+        <p>From order of service planning to casket selection, we handle every detail of the funeral arrangement for you.</p>
+      </div>
+      <div class="card">
+        <div class="icon-badge"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#D8B879" stroke-width="1.6"/><path d="M12 7v5l3 2" stroke="#D8B879" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+        <h3>Available Day &amp; Night</h3>
+        <p>Loss doesn't wait for business hours. Reach our team any time, day or night, for immediate assistance.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-pad band-alt">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">What We Handle</span>
+        <h2>Cremation, Burial &amp; Funeral Ceremony Services</h2>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Cremation Services</h3>
+          <p>Affordable cremation packages with clear pricing and no surprise fees, arranged with care and respect.</p>
+        </div>
+        <div class="card">
+          <h3>Burial Services</h3>
+          <p>Full burial services and casket funeral home coordination for families who prefer a traditional burial.</p>
+        </div>
+        <div class="card">
+          <h3>Cremated Remains Shipping</h3>
+          <p>Careful, documented shipping of human ashes and cremated remains, including international arrangements.</p>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:30px;">
+        <a href="#services" class="btn">See All Services</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-pad wrap">
+    <div class="section-head">
+      <span class="eyebrow">Our Story</span>
+      <h2>Serving Brooklyn's Russian-Speaking Community &amp; Beyond</h2>
+    </div>
+    <div class="grid-2">
+      <div>
+        <p>Welcome to Russian Funeral Service, a Brooklyn-based funeral and cremation provider serving families across NY 11225 and the surrounding neighborhoods. We understand the traditions and expectations of the Russian-speaking community, and we bring the same care to every family we serve, whatever their background or beliefs.</p>
+        <p>Whether you need a same-day cremation, a full funeral ceremony with a religious service, or help shipping human cremated remains abroad, our staff walks you through the paperwork, the choices and the costs in plain language.</p>
+      </div>
+      <div>
+        <p>No family should have to navigate funeral arrangements alone. Our team is available around the clock to answer questions, prepare the order of service, and coordinate every detail so you can focus on your loved ones.</p>
+        <p>We proudly serve Brooklyn, NY 11225 and the wider metro area, offering honest, affordable pricing and a calm, respectful presence from the very first call.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-pad band-alt">
+    <div class="wrap" style="text-align:center;">
+      <h2>Here for Your Family, Any Hour of the Day</h2>
+      <p style="max-width:560px;margin:0 auto 20px;font-family:Calibri, Arial, sans-serif;">Our team is available 24 hours a day to help arrange cremation, funeral or burial services for your family in Brooklyn, NY.</p>
+      <a href="tel:+13475605810" class="btn">Call 347-560-5810 Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about">
+  <div class="section-pad wrap">
+    <div class="about-hero">
+      <div>
+        <span class="eyebrow">About Russian Funeral Service</span>
+        <h1>Cremation &amp; Funeral Care Built on Compassion and Honest Pricing</h1>
+        <p>Russian Funeral Service was built on one idea: when a family is arranging a cremation or funeral, they deserve a team that explains every option in plain language, respects their traditions, and charges a fair, transparent price. That idea guides every cremation, burial and funeral ceremony we arrange.</p>
+        <p>Our staff coordinates direct cremations, full funeral services, casket selection, order of service planning, and the shipping of cremated remains for families sending a loved one's ashes home.</p>
+        <div class="badge-row">
+          <div>Available 24 Hours</div>
+          <div>Cash &amp; Credit Cards Accepted</div>
+          <div>Brooklyn, NY 11225</div>
+        </div>
+      </div>
+      <div class="hero-art" style="box-shadow:0 20px 50px rgba(30,36,34,.12);border-color:var(--line);background:#fff;">
+        <img src="https://www.harmonyfuneral.com/wp-content/uploads/2025/10/Burial-Services-in-Brooklyn.jpg.webp" alt="Russian Funeral Service Brooklyn funeral home building" style="height:360px;">
+      </div>
+    </div>
+  </div>
+
+  <div class="section-pad band-alt">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Our Commitment</span>
+        <h2>What Makes Us the Funeral Parlor Brooklyn Families Trust</h2>
+      </div>
+      <div class="grid-3">
+        <div class="card"><h3>Compassion</h3><p>Every family is treated with patience, warmth and understanding during a difficult time.</p></div>
+        <div class="card"><h3>Transparency</h3><p>Clear, upfront pricing for every cremation, burial or funeral arrangement package.</p></div>
+        <div class="card"><h3>Cultural Respect</h3><p>Ceremonies arranged to fit your family's religious, cultural and personal wishes.</p></div>
+        <div class="card"><h3>Availability</h3><p>Reachable 24 hours a day, including weekends and holidays, whenever you need us.</p></div>
+        <div class="card"><h3>Professionalism</h3><p>Licensed, experienced staff who explain each step before any arrangements are made.</p></div>
+        <div class="card"><h3>Fair Pricing</h3><p>Affordable packages with no hidden fees, and cash or credit card payment accepted.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-pad wrap">
+    <div class="section-head">
+      <span class="eyebrow">Common Questions</span>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+   <div style="max-width:760px;margin:0 auto;" id="faqList">
+      <div class="faq-item">
+        <button class="faq-q" type="button">
+          <h4>Do you offer affordable cremation and funeral packages?</h4>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a"><p>Yes. We offer affordable, transparent cremation and funeral packages for families throughout Brooklyn, with pricing explained clearly before anything is arranged.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">
+          <h4>Are you available for immediate need, day or night?</h4>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a"><p>Yes. Russian Funeral Service is available 24 hours a day, 7 days a week, for immediate arrangements and urgent questions.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">
+          <h4>Can you help ship cremated remains abroad?</h4>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a"><p>Yes. We prepare and coordinate the documentation needed to ship human ashes and cremated remains internationally, so families can bring a loved one home.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">
+          <h4>Do you accommodate religious and cultural ceremony traditions?</h4>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a"><p>Yes. We arrange the funeral ceremony and order of service around your family's religious, cultural and personal preferences.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">
+          <h4>What payment methods do you accept?</h4>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a"><p>We accept cash and all major credit cards, and we are happy to walk you through the full cost before you commit to any service.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services">
+  <div class="section-pad wrap">
+    <div class="section-head">
+      <span class="eyebrow">Full Service List</span>
+      <h1>Cremation &amp; Funeral Services in Brooklyn, NY 11225</h1>
+      <p style="font-family:Calibri, Arial, sans-serif;">Families searching for cremation services, an affordable funeral home, or a funeral home near me in Brooklyn turn to Russian Funeral Service. Below is our complete range of cremation, burial and funeral ceremony services.</p>
+    </div>
+    <div class="svc-filterbar" id="svcFilters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="cremation">Cremation</button>
+      <button data-filter="funeral">Funeral</button>
+      <button data-filter="burial">Burial</button>
+      <button data-filter="shipping">Shipping</button>
+    </div>
+    <div class="svc-grid" id="svcGrid"></div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+  <div class="section-pad wrap">
+    <div class="section-head">
+      <span class="eyebrow">Get In Touch</span>
+      <h1>Contact Russian Funeral Service</h1>
+      <p style="font-family:Calibri, Arial, sans-serif;">Whether you need immediate assistance or want to plan ahead, our team is ready to help, any hour of the day. Call, or send the form below and we will respond as quickly as possible.</p>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <p style="font-family:Calibri, Arial, sans-serif;">Russian Funeral Service serves families throughout Brooklyn, NY 11225 and the surrounding neighborhoods. When you reach out, let us know what your family needs, whether that is cremation, a full funeral ceremony, burial services, or shipping cremated remains, and we will give you a clear, honest estimate.</p>
+        <p style="font-family:Calibri, Arial, sans-serif;">For immediate need, call us any time, day or night. If you are planning ahead, we are also happy to schedule a consultation at a time that works for your family.</p>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you. Our team will contact you shortly.');">
+          <label for="cf-name">Full Name</label>
+          <input id="cf-name" type="text" required placeholder="Your name">
+          <label for="cf-phone">Phone Number</label>
+          <input id="cf-phone" type="tel" required placeholder="(347) 000-0000">
+          <label for="cf-service">Service Needed</label>
+          <select id="cf-service">
+            <option>Cremation Services</option>
+            <option>Funeral Arrangements</option>
+            <option>Funeral Ceremony</option>
+            <option>Burial Services</option>
+            <option>Casket Selection</option>
+            <option>Cremated Remains Shipping</option>
+            <option>Other</option>
+          </select>
+          <label for="cf-msg">Message</label>
+          <textarea id="cf-msg" rows="4" placeholder="Tell us how we can help"></textarea>
+          <button type="submit" class="btn">Request Free Consultation</button>
+        </form>
+      </div>
+      <div>
+        <div class="contact-info-card">
+          <h3>Contact Details</h3>
+          <div class="contact-line">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z" stroke="#D8B879" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            <a href="tel:+13475605810">347-560-5810</a>
+          </div>
+          <div class="contact-line">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#D8B879" stroke-width="1.6"/><path d="M3 7l9 6 9-6" stroke="#D8B879" stroke-width="1.6"/></svg>
+            <a href="https://harmonyfuneral.com">harmonyfuneral.com</a>
+          </div>
+          <div class="contact-line">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 22s7-6.2 7-12A7 7 0 105 10c0 5.8 7 12 7 12z" stroke="#D8B879" stroke-width="1.6"/><circle cx="12" cy="10" r="2.4" stroke="#D8B879" stroke-width="1.6"/></svg>
+            <span>Brooklyn, NY 11225</span>
+          </div>
+          <div class="contact-line">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#D8B879" stroke-width="1.6"/><path d="M12 7v5l3 2" stroke="#D8B879" stroke-width="1.6" stroke-linecap="round"/></svg>
+            <span>Open 24 Hours, Every Day</span>
+          </div>
+          <div class="contact-line">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="18" height="12" rx="2" stroke="#D8B879" stroke-width="1.6"/><path d="M3 10h18" stroke="#D8B879" stroke-width="1.6"/></svg>
+            <span>Cash &amp; All Major Credit Cards Accepted</span>
+          </div>
+          <div class="contact-line">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="2" stroke="#D8B879" stroke-width="1.6"/><path d="M12 4v16M4 12h16" stroke="#D8B879" stroke-width="1.6"/></svg>
+            <span>Brooklyn, New York</span>
+          </div>
+        </div>
+        <div class="map-wrap">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96873.72404095976!2d-73.94483555000001!3d40.64523145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b8916ae9221%3A0x8c48166f3075ed10!2sRussian%20Funeral%20Service!5e0!3m2!1sen!2s!4v1790411412704!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<a href="tel:+13475605810" class="floatcall" aria-label="Call Russian Funeral Service now">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z" fill="#1E2422"/></svg>
+</a>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div>
+      <div class="foot-brand">
+        <img src="https://www.harmonyfuneral.com/wp-content/themes/brooklyn-funeral-home/images/harmony-brooklyn-funeral-home-logo.svg" alt="Russian Funeral Service logo">
+        <span>Russian Funeral Service</span>
+      </div>
+      <p style="font-size:.9rem;">A cremation and funeral service serving Brooklyn, NY 11225 and surrounding neighborhoods with affordable, respectful care, 24 hours a day.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div>
+      <h4>Popular Services</h4>
+      <a href="#services">Cremation Services</a>
+      <a href="#services">Funeral Arrangements</a>
+      <a href="#services">Burial Services</a>
+      <a href="#services">Cremated Remains Shipping</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="tel:+13475605810">347-560-5810</a>
+      <a href="https://harmonyfuneral.com">harmonyfuneral.com</a>
+      <a href="#contact">Brooklyn, NY 11225</a>
+      <a href="#contact">Open 24 Hours, Every Day</a>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">
+    <span>&copy; 2026 Russian Funeral Service. All rights reserved.</span>
+    <span>Affordable Cremation &amp; Funeral Home Near Me in Brooklyn, NY</span>
+  </div>
+</footer>
+
+<script>
+/* ---------------- Routing ---------------- */
+const routes = ["home","about","services","contact"];
+function showRoute(r){
+  if(!routes.includes(r)) r = "home";
+  routes.forEach(id=>{
+    document.getElementById(id).classList.toggle("active", id===r);
+  });
+  document.querySelectorAll("nav.mainnav a").forEach(a=>{
+    a.classList.toggle("current", a.dataset.route===r);
+  });
+  window.scrollTo({top:0,behavior:"instant"});
+}
+window.addEventListener("hashchange", ()=> showRoute(location.hash.replace("#","")));
+showRoute(location.hash.replace("#","") || "home");
+
+/* ---------------- FAQ accordion ---------------- */
+document.querySelectorAll("#faqList .faq-item").forEach(item=>{
+  item.querySelector(".faq-q").addEventListener("click", ()=>{
+    const wasOpen = item.classList.contains("open");
+    document.querySelectorAll("#faqList .faq-item").forEach(i=>i.classList.remove("open"));
+    if(!wasOpen) item.classList.add("open");
+  });
+});
+
+/* ---------------- Services data ---------------- */
+const ICON = {
+  urn: '<svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M12 3c1.6 2.4 2.4 4.3 2.4 6a2.4 2.4 0 11-4.8 0c0-1.7.8-3.6 2.4-6z" stroke="#D8B879" stroke-width="1.6" stroke-linejoin="round"/><path d="M6 21h12M8 21c0-4 1.8-6.5 4-6.5s4 2.5 4 6.5" stroke="#D8B879" stroke-width="1.6" stroke-linecap="round"/></svg>',
+  scroll: '<svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M5 4h11l3 3v13H5V4z" stroke="#D8B879" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 10h6M9 14h6M9 18h3" stroke="#D8B879" stroke-width="1.4" stroke-linecap="round"/></svg>',
+  dove: '<svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M4 14c3-1 5-3 6-6 2 1 3 3 3 5 2-2 5-2 7-1-2 3-5 5-9 5-3 0-5.5-1-7-3z" stroke="#D8B879" stroke-width="1.5" stroke-linejoin="round"/><circle cx="9.4" cy="8.6" r=".6" fill="#D8B879"/></svg>',
+  cross: '<svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M12 4v16M7 9h10" stroke="#D8B879" stroke-width="1.7" stroke-linecap="round"/></svg>',
+  ship: '<svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M4 15l1.6 4h12.8l1.6-4M6 15V7h12v8" stroke="#D8B879" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 7V4h6v3" stroke="#D8B879" stroke-width="1.6"/></svg>',
+  hands: '<svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M3 11l4-2 4 2-2 6-6-1-1-5z" stroke="#D8B879" stroke-width="1.5" stroke-linejoin="round"/><path d="M21 11l-4-2-4 2 2 6 6-1 1-5z" stroke="#D8B879" stroke-width="1.5" stroke-linejoin="round"/></svg>',
+  clock: '<svg width="30" height="30" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#D8B879" stroke-width="1.6"/><path d="M12 7v5l3 2" stroke="#D8B879" stroke-width="1.6" stroke-linecap="round"/></svg>',
+  casket: '<svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M6 6h12l2 6-2 6H6l-2-6 2-6z" stroke="#D8B879" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12h6" stroke="#D8B879" stroke-width="1.6" stroke-linecap="round"/></svg>'
+};
+
+const services = [
+  {name:"Cremation Services", cat:"cremation", icon:ICON.urn,
+   desc:"Our cremation services are carried out with dignity and care, offering direct, traditional and religious cremation options. We explain each choice clearly so your family can decide what feels right, without pressure or confusion during a difficult time."},
+  {name:"Affordable Cremation Packages", cat:"cremation", icon:ICON.urn,
+   desc:"Families searching for the best or most affordable cremation service want honest pricing and no hidden fees. Our packages are laid out clearly from the first conversation, so you know the full cost before anything is arranged."},
+  {name:"Funeral Arrangements", cat:"funeral", icon:ICON.scroll,
+   desc:"We coordinate every part of the funeral arrangement, from paperwork and permits to scheduling, so your family can focus on remembering your loved one rather than managing logistics."},
+  {name:"Order of Service Planning", cat:"funeral", icon:ICON.scroll,
+   desc:"Our team helps plan the order of service for the funeral, including readings, music and tributes, so the ceremony reflects your loved one's life and your family's wishes."},
+  {name:"Funeral Ceremony", cat:"funeral", icon:ICON.cross,
+   desc:"Whether religious or secular, we arrange the funeral ceremony around your family's traditions, coordinating with clergy or officiants and preparing the venue with care."},
+  {name:"Casket Selection", cat:"funeral", icon:ICON.casket,
+   desc:"We help families choose a casket that fits their preferences and budget, walking through the available options honestly rather than steering you toward the most expensive choice."},
+  {name:"Burial Services", cat:"burial", icon:ICON.hands,
+   desc:"For families who prefer a traditional burial, we coordinate the full burial service, from cemetery arrangements to graveside ceremony details, handled respectfully from start to finish."},
+  {name:"Ceremony &amp; Burial Coordination", cat:"burial", icon:ICON.hands,
+   desc:"We work directly with cemeteries and clergy to coordinate the burial and accompanying ceremony, keeping your family informed at every step of the process."},
+  {name:"Human Cremated Remains Shipping", cat:"shipping", icon:ICON.ship,
+   desc:"We prepare and manage the documentation required to ship human cremated remains domestically or internationally, helping families bring a loved one's ashes home to family abroad."},
+  {name:"Human Ashes Remains Transport", cat:"shipping", icon:ICON.ship,
+   desc:"Our team handles the careful packaging and transport of human ashes remains, following all required regulations so the process is smooth and worry-free for your family."},
+  {name:"24-Hour Availability", cat:"funeral", icon:ICON.clock,
+   desc:"Loss does not keep business hours, and neither do we. Our team is available around the clock, including weekends and holidays, for immediate assistance."},
+  {name:"Funeral Parlor Consultation", cat:"funeral", icon:ICON.scroll,
+   desc:"Not sure where to start? Schedule a free, no-obligation consultation at our funeral parlor to walk through your options and get a clear, honest estimate."}
+];
+
+const svcGrid = document.getElementById("svcGrid");
+function renderServices(filter){
+  svcGrid.innerHTML = "";
+  services
+    .filter(s => filter==="all" || s.cat===filter)
+    .forEach(s=>{
+      const card = document.createElement("div");
+      card.className = "svc-card";
+      card.innerHTML = `
+        <div class="svc-img">
+          ${s.icon}
+          <div class="svc-tag">${s.name}</div>
+        </div>
+        <div class="svc-body">
+          <h3>${s.name}</h3>
+          <p>${s.desc}</p>
+          <a href="tel:+13475605810" class="svc-cta">Call for ${s.name} &rarr;</a>
+        </div>`;
+      svcGrid.appendChild(card);
+    });
+}
+renderServices("all");
+document.getElementById("svcFilters").addEventListener("click", e=>{
+  if(e.target.tagName !== "BUTTON") return;
+  document.querySelectorAll("#svcFilters button").forEach(b=>b.classList.remove("active"));
+  e.target.classList.add("active");
+  renderServices(e.target.dataset.filter);
+});
+</script>
+
+<!-- ============= JSON-LD SCHEMA ============= -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FuneralHome",
+  "name": "Russian Funeral Service",
+  "telephone": "+1-347-560-5810",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Brooklyn",
+    "addressRegion": "NY",
+    "postalCode": "11225",
+    "addressCountry": "US"
+  },
+  "url": "https://harmonyfuneral.com",
+  "hasMap": "https://www.google.com/maps?cid=10108354030443293968",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
+  ],
+  "paymentAccepted": "Cash, Credit Card"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {"@type":"Service","serviceType":"Cremation Services","provider":{"@type":"FuneralHome","name":"Russian Funeral Service"},"areaServed":"Brooklyn, NY"},
+    {"@type":"Service","serviceType":"Funeral Arrangements","provider":{"@type":"FuneralHome","name":"Russian Funeral Service"},"areaServed":"Brooklyn, NY"},
+    {"@type":"Service","serviceType":"Burial Services","provider":{"@type":"FuneralHome","name":"Russian Funeral Service"},"areaServed":"Brooklyn, NY"},
+    {"@type":"Service","serviceType":"Funeral Ceremony","provider":{"@type":"FuneralHome","name":"Russian Funeral Service"},"areaServed":"Brooklyn, NY"},
+    {"@type":"Service","serviceType":"Human Cremated Remains Shipping","provider":{"@type":"FuneralHome","name":"Russian Funeral Service"},"areaServed":"Brooklyn, NY"},
+    {"@type":"Service","serviceType":"Order of Service Planning","provider":{"@type":"FuneralHome","name":"Russian Funeral Service"},"areaServed":"Brooklyn, NY"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you offer affordable cremation and funeral packages?",
+      "acceptedAnswer": {"@type":"Answer","text":"Yes. We offer affordable, transparent cremation and funeral packages for families throughout Brooklyn, with pricing explained clearly before anything is arranged."}
+    },
+    {
+      "@type": "Question",
+      "name": "Are you available for immediate need, day or night?",
+      "acceptedAnswer": {"@type":"Answer","text":"Yes. Russian Funeral Service is available 24 hours a day, 7 days a week, for immediate arrangements and urgent questions."}
+    },
+    {
+      "@type": "Question",
+      "name": "Can you help ship cremated remains abroad?",
+      "acceptedAnswer": {"@type":"Answer","text":"Yes. We prepare and coordinate the documentation needed to ship human ashes and cremated remains internationally, so families can bring a loved one home."}
+    },
+    {
+      "@type": "Question",
+      "name": "Do you accommodate religious and cultural ceremony traditions?",
+      "acceptedAnswer": {"@type":"Answer","text":"Yes. We arrange the funeral ceremony and order of service around your family's religious, cultural and personal preferences."}
+    },
+    {
+      "@type": "Question",
+      "name": "What payment methods do you accept?",
+      "acceptedAnswer": {"@type":"Answer","text":"We accept cash and all major credit cards, and we are happy to walk you through the full cost before you commit to any service."}
+    }
+  ]
+}
+</script>
+
+</body>
+</html>
